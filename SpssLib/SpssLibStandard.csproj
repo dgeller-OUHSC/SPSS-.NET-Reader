@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.6</Version>
+    <Authors>Roeland Nieuwenhuis, Francisco Biagi</Authors>
+    <Company />
+    <PackageLicenseUrl>https://raw.githubusercontent.com/dgeller-OUHSC/SPSS-.NET-Reader/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/dgeller-OUHSC/SPSS-.NET-Reader</PackageProjectUrl>
+    <Description>Fork of the sppslib that's netstandard compliant from https://github.com/TNSGlobal/SPSS-.NET-Reader</Description>
+    <RepositoryUrl>https://github.com/dgeller-OUHSC/SPSS-.NET-Reader</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
