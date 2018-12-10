@@ -53,7 +53,10 @@ namespace SpssLib.DataReader
 			Cases = -1;
 		    HeaderEncoding = Encoding.UTF8;
             DataEncoding = Encoding.UTF8;
+            FlushStreamOnDispose = true;
 		}
+
+        public bool FlushStreamOnDispose { get; set; }
 
         // TODO Read-only informational prod_name, layout_code, nominal_case_size, creation_date, creation_time
 

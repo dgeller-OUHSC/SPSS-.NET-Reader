@@ -168,7 +168,8 @@ namespace SpssLib.FileParser
 		{
 			_writer.Flush();
 			_writer.Close();
-			_output.Dispose();
+            if(_options.FlushStreamOnDispose)
+                _output.Dispose();
 		}
 
 		public void WriteRecord(object[] record)
@@ -202,7 +203,7 @@ namespace SpssLib.FileParser
 				}
 			}
 		}
-
+        
 		public void EndFile()
 		{
 			_recordWriter.EndFile();
